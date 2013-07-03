@@ -53,7 +53,7 @@ class CV_EXPORTS ExposureCompensator
 public:
     virtual ~ExposureCompensator() {}
 
-    enum { NO, GAIN, GAIN_BLOCKS };
+    enum { NONE, GAIN, GAIN_BLOCKS };
     static Ptr<ExposureCompensator> createDefault(int type);
 
     void feed(const std::vector<Point> &corners, const std::vector<Mat> &images,

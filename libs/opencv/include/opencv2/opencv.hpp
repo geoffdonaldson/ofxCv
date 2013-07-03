@@ -53,5 +53,19 @@
 #include "opencv2/highgui.hpp"
 #include "opencv2/contrib.hpp"
 #include "opencv2/ml.hpp"
+#include "opencv2/nonfree.hpp"
+#include "opencv2/legacy.hpp"
+
+#include "opencv2/stitching/detail/autocalib.hpp"
+#include "opencv2/stitching/detail/blenders.hpp"
+#include "opencv2/stitching/detail/camera.hpp"
+#include "opencv2/stitching/detail/exposure_compensate.hpp"
+#include "opencv2/stitching/detail/motion_estimators.hpp"
+#include "opencv2/stitching/detail/matchers.hpp"
+#include "opencv2/stitching/detail/seam_finders.hpp"
+#include "opencv2/stitching/detail/util_inl.hpp"
+#include "opencv2/stitching/detail/warpers_inl.hpp"
+
+
 
 #endif

@@ -55,7 +55,7 @@ class CV_EXPORTS Blender
 public:
     virtual ~Blender() {}
 
-    enum { NO, FEATHER, MULTI_BAND };
+    enum { NONE, FEATHER, MULTI_BAND };
     static Ptr<Blender> createDefault(int type, bool try_gpu = false);
 
     void prepare(const std::vector<Point> &corners, const std::vector<Size> &sizes);
